@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-carbon-bg: #0B0D10;
+  --color-carbon-surface: #151A21;
+  --color-brand-teal: #2DD4BF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
