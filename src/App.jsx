@@ -29,6 +29,7 @@ export default function App() {
     instagram: "https://www.instagram.com/__mesith__",
     linkedin: "https://www.linkedin.com/in/tashmith-bopage-3aa1b9295/", 
     github: "https://github.com/TashmithBopage",
+    chargeUpApp: "https://www.sdgp.lk/project/f50b2c30-c598-46e6-a9e0-f40b4bbd82be",
     estateApp: "https://estate-agent-seven.vercel.app/",
     portfolioApp: "https://my-simple-portfolio-mesith.vercel.app/"
   };
@@ -41,7 +42,7 @@ export default function App() {
       'service_qpslitv', 
       'template_tiylmv9', 
       form.current, 
-      'UPrRMfPhtRKnSFSf6' // Replace this with your Public Key from Account -> API Keys
+      'UPrRMfPhtRKnSFSf6'
     )
       .then((result) => {
           alert("Message sent successfully!");
@@ -259,7 +260,7 @@ export default function App() {
                 </p>
                 <div className="flex gap-4">
                   <a href={links.github} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#0D9488] transition-colors"><Icons.Github /></a>
-                  <span className="text-slate-600 cursor-not-allowed"><Icons.ExternalLink /></span>
+                  <a href={links.chargeUpApp} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-[#0D9488] transition-colors"><Icons.ExternalLink /></a>
                 </div>
               </div>
             </div>
