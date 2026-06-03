@@ -140,8 +140,8 @@ export default function App() {
             
             <div className="mt-8 flex flex-wrap gap-5 items-center justify-center md:justify-start">
               <a
-                href="/Mesith Bopage CV.pdf"
-                download="Mesith Bopage CV.pdf"
+                href="/Mesith Bopage CV (1).pdf"
+                download="Mesith Bopage CV (1).pdf"
                 className="flex items-center gap-2 bg-[#0D9488] text-white font-bold px-7 py-3.5 rounded-xl hover:bg-[#0f766e] transition-transform hover:-translate-y-1 shadow-md hover:shadow-lg"
                 style={{ letterSpacing: '0.03em' }}
               >
